@@ -1,0 +1,26 @@
+***************************************************************
+**  ATIMA calculation V1.41 based on precalculated tables    **
+**  export MOCADI_SPLINES_GZ='/u/weick/mocadi/splines_gz_1.41' 
+**  selected compounds for input Zp = 201-220.               **
+**  Sorry, dE/dx output only correct for first material in   **
+**  sequence of many inputs, then restart program, rest ok.  **
+***************************************************************
+
+***** input following parameters *****
+
+nuclear charge of projectile [92.000000] ? mass of projectile [amu]     [238.050800] ? energy of fragment [MeV/u]   [1000.000000] ? atomic number of material    [29] ? molar mass of material [amu] [63.546000] ? material thickness [mg/cm2]  [1000.000000] ? <I> read ATIMA splines for Cu.
+1: Z=29, A=63.546001, w=1.000000, pot=322.000000
+
+ projectile Z=92 A=238.050800 E=1000.000000 MeV/u 
+ target     Z=29 A=63.546000 t=1000.000000
+ dE/dx at entrance : 14.518021 MeV/(mg/cm2)
+ exit energy       : 938.686462 MeV/u
+ energy straggling : 0.286656 MeV/u (std.dev.)
+ range             : 12594.870825 mg/cm2 -> 11594.871745 mg/cm2
+ range straggling  : 11.898692 mg/cm2 (std.dev.)
+ angular straggling: 1.052402 mrad (std.dev.)
+ <q>_p in -> out   : 91.761879 -> 91.742020 e
+
+***** input following parameters *****
+
+nuclear charge of projectile [92.000000] ? mass of projectile [amu]     [238.050800] ? energy of fragment [MeV/u]   [1000.000000] ? atomic number of material    [29] ? molar mass of material [amu] [63.546000] ? material thickness [mg/cm2]  [1000.000000] ? 
